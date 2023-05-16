@@ -1,0 +1,214 @@
+{
+    "editor.renderControlCharacters": false, //! Format on save
+
+    // WORKBENCH
+
+    "workbench.iconTheme": "vscode-icons",
+
+    "workbench.editor.enablePreview": true,
+
+    // HTML
+
+    "html.format.contentUnformatted": "",
+
+    /* "[html]": {
+  
+  "editor.formatOnSave": true // change to false no need to format HTML codes on save
+  
+      }, */
+
+    // JAVASCRIPT
+
+    "javascript.preferences.quoteStyle": "single",
+
+    "javascript.updateImportsOnFileMove.enabled": "always",
+
+    "javascript.format.semicolons": "remove",
+
+    "javascript.validate.enable": false,
+
+    // TYPESCRIPT
+
+    "typescript.preferences.quoteStyle": "single",
+
+    "typescript.format.semicolons": "remove",
+
+    // "[typescript]": {
+
+    //     "editor.defaultFormatter": "esbenp.prettier-vscode"
+
+    // },
+
+    // PRETTIER
+
+    "prettier.trailingComma": "es5",
+
+    "prettier.tabWidth": 4,
+
+    "prettier.singleQuote": true,
+
+    "prettier.jsxSingleQuote": true,
+
+    "prettier.printWidth": 150,
+
+    "prettier.semi": false,
+
+    // EMMET
+
+    "emmet.triggerExpansionOnTab": true,
+
+    "emmet.syntaxProfiles": {
+        "smarty": "html"
+    },
+
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+
+        "smarty": "html"
+    },
+
+    "explorer.confirmDelete": false,
+
+    // EDITOR
+
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+    "editor.formatOnType": true,
+
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+
+    // TERMINAL
+
+    // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+
+    // AUTO-RENAME PLUGIN
+
+    "auto-rename-tag.activationOnLanguage": ["*"],
+
+    // BETTER-COMMENTS PLUGIN
+
+    "better-comments.tags": [
+        {
+            "tag": "!",
+
+            "color": "#FF2D00",
+
+            "strikethrough": false,
+
+            "underline": false,
+
+            "backgroundColor": "transparent",
+
+            "bold": true,
+
+            "italic": false
+        },
+
+        {
+            "tag": "@",
+
+            "color": "#38dc23",
+
+            "strikethrough": false,
+
+            "underline": false,
+
+            "backgroundColor": "transparent",
+
+            "bold": true,
+
+            "italic": false
+        },
+
+        {
+            "tag": "#",
+
+            "color": "#2000d1",
+
+            "strikethrough": true,
+
+            "underline": false,
+
+            "backgroundColor": "transparent",
+
+            "bold": true,
+
+            "italic": false
+        },
+
+        {
+            "tag": "todo",
+
+            "color": "#FF8C00",
+
+            "strikethrough": false,
+
+            "underline": false,
+
+            "backgroundColor": "transparent",
+
+            "bold": true,
+
+            "italic": false
+        },
+
+        {
+            "tag": "*",
+
+            "color": "#ffff31",
+
+            "strikethrough": false,
+
+            "underline": false,
+
+            "backgroundColor": "transparent",
+
+            "bold": true,
+
+            "italic": false
+        }
+    ],
+
+    "settingsSync.ignoredSettings": ["-php.validate.executablePath"],
+
+    "editor.suggestSelection": "first",
+
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+    "files.exclude": {
+        "**/.classpath": true,
+
+        "**/.project": true,
+
+        "**/.settings": true,
+
+        "**/.factorypath": true
+    },
+
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+
+    "editor.minimap.enabled": false,
+
+    "thunder-client.codeSnippetLanguage": "js-fetch",
+
+    "typescript.updateImportsOnFileMove.enabled": "always",
+
+    "explorer.compactFolders": false,
+
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+
+    "typescript.tsdk": "./node_modules/typescript/lib",
+
+    "editor.formatOnSave": true,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.linkedEditing": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.sideBar.location": "right"
+}
